@@ -54,7 +54,7 @@ namespace EducativeGrokkingCodingPatterns
             public int begin;
             public int end;
         }
-        public static Interval[] MergeIntervals(Interval[] intervals)
+        public static Interval[] MergeIntervals1st(Interval[] intervals)
         {
             //Sort the intervals by begin
             Array.Sort(intervals, (intervalA, IntervalB) => { return intervalA.begin.CompareTo(IntervalB.begin); } ); 
@@ -74,6 +74,33 @@ namespace EducativeGrokkingCodingPatterns
                 }
             }
             newIntervals.Add(curInterval);
+
+            return newIntervals.ToArray();
+        }
+        public static Interval[] MergeIntervals(Interval[] intervals)
+        {
+            if(intervals == null || intervals.Length == 0)
+                return null;
+
+            //Sort the intervals by begin
+            Array.Sort(intervals, (intervalA, IntervalB) => { return intervalA.begin.CompareTo(IntervalB.begin); });
+
+            Interval curInterval = new Interval(intervals[0].begin, intervals[0].end);
+            List<Interval> newIntervals = new List<Interval> { curInterval };
+
+            for (int i = 1; i < intervals.Length; ++i)
+            {
+                if (curInterval.end >= intervals[i].begin)
+                {
+                    if (curInterval.end < intervals[i].end)
+                        curInterval.end = intervals[i].end;
+                }
+                else
+                {
+                    curInterval = new Interval(intervals[i].begin, intervals[i].end);
+                    newIntervals.Add(curInterval);
+                }
+            }
 
             return newIntervals.ToArray();
         }
