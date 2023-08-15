@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "lGCUesReKe7voBPCUiYGSWxvBxDFWP809oe0vXUhJIhrh+3Jpg/kAi8LGB7cnYn/mkeixEhqQUAtDULTuQrE4Q==",
+  "dgSpecHash": "waYzsBWTVhroPDFOeRJ05k0xtMFNMRkw0ker3VIAT6evQQ6XhyyTs76gbOmUhppF3P1vJHhOpm1/n8Htpzmy0w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\VincentLiguori\\source\\repos\\EducativeGrokkingCodingPatterns\\EducativeGrokkingCodingPatterns.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Programming\\GrokkingCodingPatterns\\GrokkingCodingPatternsCSharp\\EducativeGrokkingCodingPatterns.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\VincentLiguori\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
   "logs": []
 }
