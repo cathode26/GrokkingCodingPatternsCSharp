@@ -1,0 +1,49 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v5.0": {},
+    ".NETFramework,Version=v5.0/win7-x86": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v5.0": []
+  },
+  "packageFolders": {
+    "C:\\Users\\VincentLiguori\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Programming\\GrokkingCodingPatterns\\GrokkingCodingPatternsCSharp\\EducativeGrokkingCodingPatterns.csproj",
+      "projectName": "EducativeGrokkingCodingPatterns",
+      "projectPath": "D:\\Programming\\GrokkingCodingPatterns\\GrokkingCodingPatternsCSharp\\EducativeGrokkingCodingPatterns.csproj",
+      "packagesPath": "C:\\Users\\VincentLiguori\\.nuget\\packages\\",
+      "outputPath": "D:\\Programming\\GrokkingCodingPatterns\\GrokkingCodingPatternsCSharp\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\VincentLiguori\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net50"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net50": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net50": {}
+    },
+    "runtimes": {
+      "win7-x86": {
+        "#import": []
+      }
+    }
+  }
+}
