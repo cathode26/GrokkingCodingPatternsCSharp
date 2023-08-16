@@ -26,10 +26,10 @@ namespace EducativeGrokkingCodingPatterns
             _03SlidingWindow_06_LongestSubstringWithoutRepeatingCharacters.Compute();
             _03SlidingWindow_07_MinimumSizeSubArray.Compute();
             _03SlidingWindow_08_BestTimeToBuySellStock.Compute();
+            _04MergeIntervals_01_MergeIntervals.Compute();
 
              */
-
-            _04MergeIntervals_01_MergeIntervals.Compute();
+            _04MergeIntervals_02_InsertInterval.Compute();
         }
     }
 }
