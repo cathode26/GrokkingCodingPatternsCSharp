@@ -29,9 +29,10 @@ namespace EducativeGrokkingCodingPatterns
             _04MergeIntervals_01_MergeIntervals.Compute();
             _04MergeIntervals_02_InsertInterval.Compute();
             _04MergeIntervals_03_IntervalListIntersections.Compute();
+            _04MergeIntervals_04_EmployeeFreeTime.Compute();
 
              */
-            _04MergeIntervals_04_EmployeeFreeTime.Compute();
+            _04MergeIntervals_06_MeetingRoomsII.Compute();
         }
     }
 }
