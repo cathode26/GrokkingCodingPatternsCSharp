@@ -31,9 +31,11 @@ namespace EducativeGrokkingCodingPatterns
             _04MergeIntervals_06_MeetingRoomsII.Compute();
             _05LinkedList_01_Reverse.Compute();
             _05LinkedList_02_ReverseNodesInKGroups.Compute();
+            _05LinkedList_03_Reverse2.Compute();
+
              */
 
-            _05LinkedList_03_Reverse2.Compute();
+            _05LinkedList_04_ReorderList.Compute();
         }
     }
 }
