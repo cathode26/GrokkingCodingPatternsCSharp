@@ -7,13 +7,11 @@ namespace EducativeGrokkingCodingPatterns
         static void Main(string[] args)
         {
             /*
-              
-             _01TwoPointers_01_ValidPalindrome.Compute();
+            _01TwoPointers_01_ValidPalindrome.Compute();
             _01TwoPointers_02_SumOfThreeValues.Compute();
             _01TwoPointers_03_ReverseWordsInString.Compute();
             _01TwoPointers_04_ValidPalindrome2.Compute();
             _01TwoPointers_05_ValidPalindrome3.Compute();
-            
             _02FastSlowPointer_01_HappyNumber.Compute();
             _02FastSlowPointer_02_LinkedListCycle.Compute();
             _02FastSlowPointer_03_MiddleOfLinkedList.Compute();
@@ -31,8 +29,10 @@ namespace EducativeGrokkingCodingPatterns
             _04MergeIntervals_03_IntervalListIntersections.Compute();
             _04MergeIntervals_04_EmployeeFreeTime.Compute();
             _04MergeIntervals_06_MeetingRoomsII.Compute();
-             */
             _05LinkedList_01_Reverse.Compute();
+             */
+
+            _05LinkedList_02_ReverseNodesInKGroups.Compute();
         }
     }
 }
