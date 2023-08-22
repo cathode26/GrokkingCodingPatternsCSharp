@@ -18,39 +18,44 @@ using System.Collections.Generic;
     4,8,9,11,15,20
    
     |
-    2,3,3, 5, 8,11     2<4 Add a room 
-    4,8,9,11,15,20     room = 1
-    |
+    2,3,3, 5, 8,11     2<4 Add a room       Since 2 is less than 4, we have this hypothetical interval 
+    4,8,9,11,15,20     room = 1             this is also the earlyiest possible interval from [2,4]
+    |                                       [2,4] may not be a pair so it is really [2,?] and [?,4]
+                                            What we can say is we need a room
 
       |
-    2,3,3, 5, 8,11     3<4 Add a room 
+    2,3,3, 5, 8,11     3<4 Add a room       [3,?] will overlap with [2,?]  because [2,?] either goes to [2,4] or [2,k+4]
     4,8,9,11,15,20     room = 2
     |
 
         |
-    2,3,3, 5, 8,11     3<4 Add a room 
+    2,3,3, 5, 8,11     3<4 Add a room       [3,?] will overlap with both [3,?], and [2,?] 
     4,8,9,11,15,20     room = 3
     |
 
            |
-    2,3,3, 5, 8,11     5>4 
-    4,8,9,11,15,20     room = 3
-    |
+    2,3,3, 5, 8,11     5>4                  since 5 comes after 4, it means that this meeting can happen after
+    4,8,9,11,15,20     room = 3             [3,?], [3,?], [2,?]
+    |                                                            [5,?]      //but we dont know which room it will be in, but we can see it occurs after
 
               |
-    2,3,3, 5, 8,11     8>=8  
-    4,8,9,11,15,20     room = 3
+    2,3,3, 5, 8,11     8>=8                 [3,?], [3,?], [2,?]             //since 8 >= 8, we can reuse the room because begin 8 happens after end 8 
+    4,8,9,11,15,20     room = 3                                 [5,?]  [8,?]
       |
 
                 |
-    2,3,3, 5, 8,11     11>=9  
-    4,8,9,11,15,20     room = 3
+    2,3,3, 5, 8,11     11>=9                [3,?], [3,?], [2,?]                 //since 11 >= 9, 11 begin happens after end time 9 so you can reuse a room
+    4,8,9,11,15,20     room = 3                                 [5,?]  [8,?] [11,?]
         |
 
                    |
     2,3,3, 5, 8,11     loop ends  
     4,8,9,11,15,20     room = 3
            |
+
+                                            [2, 4]     [3, 9]   [3,8]
+    2,3,3, 5, 8,11                          [5,20]         [8, 11]   
+    4,8,9,11,15,20                                         [11,15]
  */
 
 namespace EducativeGrokkingCodingPatterns

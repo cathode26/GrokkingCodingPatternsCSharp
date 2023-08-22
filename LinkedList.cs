@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Transactions;
 
 namespace EducativeGrokkingCodingPatterns
 {
@@ -26,9 +27,11 @@ namespace EducativeGrokkingCodingPatterns
         }
         public void PrintListWithForwardArrowDots()
         {
-            for (int i = 0; i < list.Count; ++i)
+            LinkedListNode cur = root;
+            int i = 0;
+            while(cur != null) 
             {
-                Console.Write(list[i].Data + " ");
+                Console.Write(cur.Data + " ");
                 if (i < list.Count - 1)
                 {
                     Console.Write(" →  ");
@@ -37,6 +40,8 @@ namespace EducativeGrokkingCodingPatterns
                 {
                     Console.Write(" →  NULL");
                 }
+                i++;
+                cur = cur.Next;
             }
             Console.WriteLine();
         }
