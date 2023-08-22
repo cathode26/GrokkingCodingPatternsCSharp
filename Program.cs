@@ -32,10 +32,11 @@ namespace EducativeGrokkingCodingPatterns
             _05LinkedList_01_Reverse.Compute();
             _05LinkedList_02_ReverseNodesInKGroups.Compute();
             _05LinkedList_03_Reverse2.Compute();
+            _05LinkedList_04_ReorderList.Compute();
 
              */
 
-            _05LinkedList_04_ReorderList.Compute();
+            _05LinkedList_05_SwappingNodes.Compute();
         }
     }
 }
