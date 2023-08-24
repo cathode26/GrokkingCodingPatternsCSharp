@@ -37,10 +37,11 @@ namespace EducativeGrokkingCodingPatterns
             _05LinkedList_06_ReverseNodesEvenGroups.Compute();
             _05LinkedList_07_SwapNodesInPairs.Compute();
             _06TwoHeaps_01_MaximizeCapital.Compute();
+            _06TwoHeaps_02_MedianFromStream.Compute();
 
              */
 
-            _06TwoHeaps_02_MedianFromStream.Compute();
+            _06TwoHeaps_03_SlidingWindowMedian.Compute();
         }
     }
 }
