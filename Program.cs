@@ -39,10 +39,11 @@ namespace EducativeGrokkingCodingPatterns
             _06TwoHeaps_01_MaximizeCapital.Compute();
             _06TwoHeaps_02_MedianFromStream.Compute();
             _06TwoHeaps_03_SlidingWindowMedian.Compute();
+            _10Subsets_01_Subsets.Compute();
 
              */
 
-            _10Subsets_01_Subsets.Compute(); 
+            _10Subsets_02_Permutations.Compute();
         }
     }
 }
