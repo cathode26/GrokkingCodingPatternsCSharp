@@ -41,10 +41,11 @@ namespace EducativeGrokkingCodingPatterns
             _06TwoHeaps_03_SlidingWindowMedian.Compute();
             _10Subsets_01_Subsets.Compute();
             _10Subsets_02_Permutations.Compute();
+            _10Subsets_03_LetterCombinationPhoneNumber.Compute();
 
              */
 
-            _10Subsets_03_LetterCombinationPhoneNumber.Compute();
+            _10Subsets_04_GenerateParentheses.Compute();
         }
     }
 }
